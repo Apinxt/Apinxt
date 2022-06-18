@@ -1,9 +1,7 @@
 ﻿using Apinxt.Handlers;
-using Apinxt.Models;
 using Apinxt.Tests.Handlers.Fixtures;
 using Apinxt.Tests.Handlers.VariableContextHandlerTests.Data;
 using FluentAssertions;
-using Newtonsoft.Json;
 using Jint;
 
 namespace Apinxt.Tests.Handlers.VariableContextHandlerTests
