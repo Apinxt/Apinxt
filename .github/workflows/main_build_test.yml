@@ -19,13 +19,13 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      working-directory: $working_dir
+      working-directory: ${{ working_dir }}
       run: dotnet restore
       
     - name: Build
       run: dotnet build --no-restore
-      working-directory: $working_dir
+      working-directory: ${{ working_dir }}
       
     - name: Test
       run: dotnet test --no-build --verbosity normal
-      working-directory: $working_dir
+      working-directory: ${{ working_dir }}
