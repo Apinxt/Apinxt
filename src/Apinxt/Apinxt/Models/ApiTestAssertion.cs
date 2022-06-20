@@ -1,6 +1,6 @@
 ﻿namespace Apinxt.Models
 {
-    public record ApiTest(string Name, string Assertion);
+    public record ApiTestAssertion(string Name, string Assertion);
 
     public record ApiTestVariable(string Name, string Expression)
     {

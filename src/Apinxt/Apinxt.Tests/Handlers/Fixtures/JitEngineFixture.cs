@@ -17,19 +17,4 @@ namespace Apinxt.Tests.Handlers.Fixtures
 
         public Engine JitEngine { get { return _jitEngine; } }
     }
-
-    public class DummyClass
-    {
-        public string StringProperty { get; set; } = "";
-        public int IntProperty { get; set; }
-        public bool BoolProperty { get; set; }
-        public DummySubClass SubClass { get; set; } = new DummySubClass();
-
-        public class DummySubClass
-        {
-            public string StringProperty { get; set; } = "";
-            public int IntProperty { get; set; }
-            public bool BoolProperty { get; set; }
-        }
-    }
 }

@@ -1,8 +1,7 @@
 ﻿namespace Apinxt.Models
 {
-    public record Endpoint(string Name,
-                           string Url,
-                           IReadOnlyList<Request> Requests)
+    public record Endpoint(Guid ApiDefinitionId, string Name,
+                           string Url)
 
     {
         public Guid UniqueId = Guid.NewGuid();

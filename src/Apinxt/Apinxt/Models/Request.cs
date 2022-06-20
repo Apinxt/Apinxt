@@ -1,9 +1,14 @@
 ﻿namespace Apinxt.Models
 {
-    public record Request(string Name,
-                          HttpMethod Method,
-                          string Url)
+    public class Request
     {
+        public Request(Guid endpointId, string Name,
+                          string Method,
+                          string Url,
+                          dynamic Body)
+        {
+
+        }
         public Guid UniqueId = Guid.NewGuid();
     }
 }

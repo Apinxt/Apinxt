@@ -34,9 +34,9 @@ namespace Apinxt.Tests.Handlers.ApiAssertionHandleTests
             ApiAssertionHandler apiAssertionHandler = new ApiAssertionHandler(jitEngineFixture.JitEngine);
             apiAssertionHandler.SetResponseContext(response);
 
-            var brokenTest = new ApiTest(name, assertion);
+            var brokenTest = new ApiTestAssertion(name, assertion);
 
-            var result = apiAssertionHandler.RunAssertions(new List<ApiTest>
+            var result = apiAssertionHandler.RunAssertions(new List<ApiTestAssertion>
             {
                 brokenTest
             });
@@ -59,9 +59,9 @@ namespace Apinxt.Tests.Handlers.ApiAssertionHandleTests
             ApiAssertionHandler apiAssertionHandler = new ApiAssertionHandler(jitEngineFixture.JitEngine);
             apiAssertionHandler.SetResponseContext(response);
 
-            var brokenTest = new ApiTest(name, assertion);
+            var brokenTest = new ApiTestAssertion(name, assertion);
 
-            var result = apiAssertionHandler.RunAssertions(new List<ApiTest>
+            var result = apiAssertionHandler.RunAssertions(new List<ApiTestAssertion>
             {
                 brokenTest
             });
@@ -82,9 +82,9 @@ namespace Apinxt.Tests.Handlers.ApiAssertionHandleTests
             ApiAssertionHandler apiAssertionHandler = new ApiAssertionHandler(jitEngineFixture.JitEngine);
             apiAssertionHandler.SetResponseContext(response);
 
-            var brokenTest = new ApiTest(testName, assertion);
+            var brokenTest = new ApiTestAssertion(testName, assertion);
 
-            var result = apiAssertionHandler.RunAssertions(new List<ApiTest>
+            var result = apiAssertionHandler.RunAssertions(new List<ApiTestAssertion>
             {
                 brokenTest
             });
@@ -105,9 +105,9 @@ namespace Apinxt.Tests.Handlers.ApiAssertionHandleTests
             ApiAssertionHandler apiAssertionHandler = new ApiAssertionHandler(jitEngineFixture.JitEngine);
             apiAssertionHandler.SetResponseContext(response);
 
-            var brokenTest = new ApiTest(testName, assertion);
+            var brokenTest = new ApiTestAssertion(testName, assertion);
 
-            var result = apiAssertionHandler.RunAssertions(new List<ApiTest>
+            var result = apiAssertionHandler.RunAssertions(new List<ApiTestAssertion>
             {
                 brokenTest
             });
@@ -128,9 +128,9 @@ namespace Apinxt.Tests.Handlers.ApiAssertionHandleTests
             ApiAssertionHandler apiAssertionHandler = new ApiAssertionHandler(jitEngineFixture.JitEngine);
             apiAssertionHandler.SetResponseContext(response);
 
-            var brokenTest = new ApiTest(testName, assertion);
+            var brokenTest = new ApiTestAssertion(testName, assertion);
 
-            var result = apiAssertionHandler.RunAssertions(new List<ApiTest>
+            var result = apiAssertionHandler.RunAssertions(new List<ApiTestAssertion>
             {
                 brokenTest
             });

@@ -17,7 +17,7 @@ namespace Apinxt.Handlers
             _jintEngine.SetValue("response", response);
         }
 
-        public IEnumerable<ApiAssertionResult> RunAssertions(IList<ApiTest> tests)
+        public IEnumerable<ApiAssertionResult> RunAssertions(IList<ApiTestAssertion> tests)
         {
 
             var resultList = new List<ApiAssertionResult>();

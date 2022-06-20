@@ -1,4 +1,5 @@
-﻿using Apinxt.Tests.Handlers.Fixtures;
+﻿using Apinxt.Tests.Fixtures;
+using Apinxt.Tests.Handlers.Fixtures;
 using System;
 using System.Collections;
 using System.Collections.Generic;
